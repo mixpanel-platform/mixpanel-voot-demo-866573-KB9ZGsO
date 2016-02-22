@@ -1,10 +1,99 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="https://cdn.mxpnl.com/libs/mixpanel-platform/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.mxpnl.com/libs/mixpanel-platform/build/mixpanel-platform.v0.latest.min.css">
-    <script src="https://cdn.mxpnl.com/libs/mixpanel-platform/build/mixpanel-platform.v0.latest.min.js"></script>
+   <p>We’ve gathered a few key reports that may be of interest to you. Below you will find the name, description, and link to key Funnel and Flows/Paths Reports. Click <a href="https://mixpanel.com/help/questions/articles/how-are-funnels-calculated" >here</a> for more information on how Funnels are calculated in Mixpanel. Please contact Uday Chakravarthi (<a href="mailto:udaych@microsoft.com" >udaych@microsoft.com</a>) with any questions. </p>
+
+<br />
+<p>Funnels: </p>
+
+<br />
+<ol ><li><p>Free Account -&gt; Trial Initiation</p>
+
+</li>
+<ul>
+<li><p>This weekly report shows the conversion of visitors who visited the Free Account Page and went on to initiate a free trial by clicking on the Start Now CTA. </p>
+
+</li>
+<li><p><href="#view/1483585/from_date:-6,to_date:0" >Link to report</a> </p>
+
+</li>
+</ul>
+
+</ol><br />
+<ol start="2"><li><p>Azure Home Page -&gt;Trial Initiated</p>
+
+</li>
+<ul>
+<li><p>This weekly three step funnel report shows the conversion of visitors who visited the Azure Home Page, then the Free Account Page, and then initiated a free trial by clicking on the Start Now CTA. </p>
+
+</li>
+<li><p><href="#view/1573533/from_date:-6,to_date:0" >Link to report</a> </p>
+
+</li>
+</ul>
+
+</ol><br />
+<ol start="3"><li><p>Home Page AB Test</p>
+
+</li>
+<ul>
+<li><p>This homepage AB test report segments funnels by experiment and enables us to look at Homepage AB Test report in Mixpanel. The name of the property used to segment the funnel is the campaign-id of the experiment prefixed with VWO and the values are variation names. </p>
+
+</li>
+<li><p><href="#view/1576797/from_date:-1,segfilter:(filters:!((dropdown_tab_index:0,property:(name:VWO-Test-ID-1113,source:properties,type:string),selected_property_type:string,type:string)),op:and),segment_type:string,to_date:0" >Link to report</a></p>
+
+</li>
+</ul>
+
+</ol><br />
+<br />
+<p>Application Reports</p>
+
+<ol ><li><p>Funnel with Drop Off</p>
+
+</li>
+<ul>
+<li><p>The Funnel with Drop Off custom report, found in the Applications tab, shows us the common paths users who don’t initiate a Free Trial take</p>
+
+</li>
+<li><p>You must build the funnel yourself; we recommend building a funnel with the following three steps: </p>
+
+</li>
+<ol ><li><p>home-visited-page</p>
+
+</li>
+<li><p>freeaccount-visited-page</p>
+
+</li>
+<li><p>freeaccount-clicked-page</p>
+
+</li>
+</ol><li><p>Click on the gray portion of the bar, and see the steps that users take in the flow report below</p>
+
+</li>
+<li><p><a href="https://mixpanel.com/report/788637/mpplatform/44081" >Link to report</a></p>
+
+</li>
+</ul>
+
+</ol><br />
+<ol start="2"><li><p>Flow</p>
+
+</li>
+<ul>
+<li><p>The Flow report will show you the steps users take after a particular event. </p>
+
+</li>
+<li><p>For example, if we choose ‘freeaccount-visited-page’, we can see what the users did after getting to this Free Account page. By clicking on a specific event in the flow, you can drill down deeper to see the next steps after that event in the flow. </p>
+
+</li>
+<li><p><a href="https://mixpanel.com/report/788637/mpplatform/44083" >Link to Report</a> </p>
+
+</li>
+<li></li>
+</ul>
+
+</ol><br />
   </head>
   <body class="mixpanel-platform-body">
     <h1>Hello, World!</h1>
